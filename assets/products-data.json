@@ -1,0 +1,110 @@
+[
+    {
+        "productId": 1,
+        "id": 15841,
+        "description": "Men's Casual Shoes, Men's Fashion Casual Slip",
+        "image": "/assets/images/shoes_01.webp",
+        "price": 1420,
+        "priceold": 1880,
+        "discount": 75
+    },
+    {
+        "productId": 1,
+        "id": 21542,
+        "description": "Men's Casual Shoes, Men's Casual Flat Shoes",
+        "image": "/assets/images/shoes_02.webp",
+        "price": 1304,
+        "priceold": 1690,
+        "discount": 33
+    },
+    {
+        "productId": 1,
+        "id": 36951,
+        "description": "Men's Sneakers, Thick Bottom Personality Trend",
+        "image": "/assets/images/shoes_03.webp",
+        "price": 2366,
+        "priceold": 3200,
+        "discount": 33
+    },
+    {
+        "productId": 1,
+        "id": 42554,
+        "description": "Men's Casual Shoes, Men's Casual Breathable",
+        "image": "/assets/images/shoes_04.webp",
+        "price": 1402,
+        "priceold": 1680,
+        "discount": 25
+    },
+    {
+        "productId": 1,
+        "id": 54871,
+        "description": "Men's Sports Flats, NIKE SHOE FOR MEN,Grey",
+        "image": "/assets/images/shoes_05.webp",
+        "price": 1699,
+        "priceold": 1980,
+        "discount": 15
+    },
+    {
+        "productId": 1,
+        "id": 65842,
+        "description": "Men's Sneakers, Thick Bottom Personality Trend",
+        "image": "/assets/images/shoes_06.webp",
+        "price": 2374,
+        "priceold": 2980,
+        "discount": 55
+    },
+    {
+        "productId": 1,
+        "id": 54872,
+        "description": "Men's Casual Shoes, Men's Casual Breathable",
+        "image": "/assets/images/shoes_07.webp",
+        "price": 1403,
+        "priceold": 1880,
+        "discount": 44
+    },
+    {
+        "productId": 1,
+        "id": 54515,
+        "description": "Men's Casual Shoes, STYLISH LOAFER SHOES",
+        "image": "/assets/images/shoes_08.webp",
+        "price": 549,
+        "priceold": 1280,
+        "discount": 25
+    },
+    {
+        "productId": 1,
+        "id": 68744,
+        "description": "Men's Sports Flats, NIKE EPIC REACT FLYKNIT",
+        "image": "/assets/images/shoes_09.webp",
+        "price": 1699,
+        "priceold": 1902,
+        "discount": 25
+    },
+    {
+        "productId": 1,
+        "id": 87564,
+        "description": "Men's Sports Flats, Nike Joyride shoes Flyknit",
+        "image": "/assets/images/shoes_10.webp",
+        "price": 2495,
+        "priceold": 3580,
+        "discount": 25
+    },
+    {
+        "productId": 1,
+        "id": 24516,
+        "description": "Men's Casual Shoes, STYLISH LOAFER SHOES",
+        "image": "/assets/images/shoes_11.webp",
+        "price": 549,
+        "priceold": 980,
+        "discount": 33
+    },
+    {
+        "productId": 1,
+        "id": 24151,
+        "description": "Offer On Branded Formal Leather Shoes For Men",
+        "image": "/assets/images/shoes_12.webp",
+        "price": 930,
+        "priceold": 1480,
+        "discount": 25
+    }
+]
