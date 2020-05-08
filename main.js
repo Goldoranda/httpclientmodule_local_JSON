@@ -8,13 +8,13 @@
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncaught exception popping up in devtools
-	return Promise.resolve().then(function() {
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	});
+  // Here Promise.resolve().then() is used instead of new Promise() to prevent
+  // uncaught exception popping up in devtools
+  return Promise.resolve().then(function() {
+    var e = new Error("Cannot find module '" + req + "'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+  });
 }
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
@@ -74,7 +74,7 @@ module.exports = "h2{font-size:14px;font-family: 'Nunito', sans-serif;}\r\nh3 {f
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<section class=\"overflow-hidden\">\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n      <img src=\"assets/images/shoes_banner.jpg\" class=\"img-fluid w-100\" alt=\"\" />\n    </div>\n  </div>\n</section>\n\n<section class=\"py-3\">\n<div class=\"container-fluid\">\n  <div class=\"row\">\n    <div class=\"col col-sm-2\">\n      <app-sidefilter></app-sidefilter>\n    </div>\n    <div class=\"col col-sm-10\">\n    <div class=\"row\">\n      <div *ngFor=\"let product of products$\" class=\"col col-sm-3 mb-3\">\n        <div class=\"p-2 border shadow-sm rounded-lg d-block\">\n          <h2 class=\"text-primary\">{{product.productId}} ({{product.id}})</h2>\n          <div class=\"imgWrap border rounded-lg bg-light mb-2\">\n            <div class=\"likeWrap overflow-hidden\"><app-like></app-like></div>\n            <img [src]=\"product.image\" class=\"imgCenter\" alt=\"\" />\n          </div>\n          <h3> {{product.description}}</h3>\n          <div class=\"priceWrap d-flex\">\n            <div class=\"price flex-fill text-left d-inline-block\">Rs.{{product.price}}.00</div>  \n            <div class=\"priceold flex-fill d-inline-block text-black-50\">Rs.{{product.priceold}}</div>\n            <div class=\"discount flex-fill text-right d-inline-block text-muted\">{{product.discount}}% OFF</div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <app-pagination></app-pagination>\n  </div>\n  </div>\n</div>\n</section>\n<router-outlet></router-outlet>"
+module.exports = "<section class=\"overflow-hidden\">\n  <div class=\"container-fluid\">\n    <div class=\"row\">\n      <img src=\"/httpclientmodule_local_JSON/assets/images/shoes_banner.jpg\" class=\"img-fluid w-100\" alt=\"\" />\n    </div>\n  </div>\n</section>\n\n<section class=\"py-3\">\n<div class=\"container-fluid\">\n  <div class=\"row\">\n    <div class=\"col col-sm-2\">\n      <app-sidefilter></app-sidefilter>\n    </div>\n    <div class=\"col col-sm-10\">\n    <div class=\"row\">\n      <div *ngFor=\"let product of products$\" class=\"col col-sm-3 mb-3\">\n        <div class=\"p-2 border shadow-sm rounded-lg d-block\">\n          <h2 class=\"text-primary\">{{product.productId}} ({{product.id}})</h2>\n          <div class=\"imgWrap border rounded-lg bg-light mb-2\">\n            <div class=\"likeWrap overflow-hidden\"><app-like></app-like></div>\n            <img [src]=\"product.image\" class=\"imgCenter\" alt=\"\" />\n          </div>\n          <h3> {{product.description}}</h3>\n          <div class=\"priceWrap d-flex\">\n            <div class=\"price flex-fill text-left d-inline-block\">Rs.{{product.price}}.00</div>  \n            <div class=\"priceold flex-fill d-inline-block text-black-50\">Rs.{{product.priceold}}</div>\n            <div class=\"discount flex-fill text-right d-inline-block text-muted\">{{product.discount}}% OFF</div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <app-pagination></app-pagination>\n  </div>\n  </div>\n</div>\n</section>\n<router-outlet></router-outlet>"
 
 /***/ }),
 
@@ -195,7 +195,7 @@ __webpack_require__.r(__webpack_exports__);
 var DataService = /** @class */ (function () {
     function DataService(http) {
         this.http = http;
-        this.apiUrl = '/assets/products-data.json';
+        this.apiUrl = '/httpclientmodule_local_JSON/assets/products-data.json';
     }
     DataService.prototype.getProducts = function () {
         return this.http.get(this.apiUrl);
